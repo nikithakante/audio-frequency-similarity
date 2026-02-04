@@ -23,9 +23,19 @@ to determine how similar they are.
 - Similarity score between the two audio files
 
 ## Sample Output
-![Frequency Comparison](output.png)
+## 📊 Output
+
+### 1️⃣ Time Domain Comparison
+![Time Domain Output](time.png)
+
+### 2️⃣ Frequency Domain Comparison
+![Frequency Domain Output](frequency.png)
+
+### 3️⃣ Similarity Score (Terminal Output)
+![Terminal Output](output.png)
 
 ## How to Run
 ```bash
 pip install librosa numpy matplotlib scipy
+
 python audio_compare.pyS
